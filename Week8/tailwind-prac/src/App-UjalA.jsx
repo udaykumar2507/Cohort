@@ -12,7 +12,7 @@ export default function App() {
         <div className="grid grid-cols-3 gap-6">
           <StatCard title="Next Payout" value="₹2,312.23" subText="Next Payment Date: Today, 4:00 PM" />
           <StatCard title="Amount Pending" value="₹92,312.20" subText="13 Orders" />
-          <StatCard title="Amount Processed" value="₹23,92,312.19" />
+          <StatCard title="Amount Processede" value="₹23,92,312.19" />
         </div>
         <TransactionTable />
       </div>
