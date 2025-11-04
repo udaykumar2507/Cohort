@@ -25,6 +25,7 @@ function App() {
      {/* <Isonlinehook></Isonlinehook> */}
       {/* <Mousemovehook></Mousemovehook> */}
       <Interval></Interval>
+      
      
     </>
   )
@@ -44,7 +45,7 @@ function App() {
 //     </div>
 //    )
 //
-
+// }
 
 // Class component example
 // class MyComponent extends Component {
