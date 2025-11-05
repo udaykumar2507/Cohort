@@ -1,1 +1,1 @@
-{"root":["./a.d.ts","./src/a.ts"],"version":"5.9.3"}
+{"root":["./a.d.ts","./src/a.ts","./src/enum.ts","./src/generic.ts"],"version":"5.9.3"}
