@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    "module": "nodenext",
+    "target": "esnext",
+    "strict": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "src"   // ONLY compile src
+  ],
+  "exclude": [
+    "dist",
+    "prisma.config.ts"   // <- IMPORTANT: do NOT compile prisma.config.ts
+  ]
+}
