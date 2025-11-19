@@ -1,0 +1,18 @@
+# TypeScript source files
+src/
+tsconfig.json
+
+# Node modules and build output
+node_modules/
+dist-tests/
+*.log
+
+# Local config files
+.vscode/
+.idea/
+.env
+
+# Misc
+*.spec.ts
+*.test.ts
+*.md  # optional if you already include README.md

@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "backend",
+  "main": "src/index.ts",
+  "compatibility_date": "2025-11-19",
+
+  // MUST be empty for Prisma Edge to run properly
+  "compatibility_flags": [],
+
+  "vars": {
+    "DATABASE_URL":""
+  }
+}
