@@ -4,7 +4,7 @@ const client = new Client({
   connectionString: 'postgresql://postgres:1234@localhost:5432/postgres',
 });
 
-
+//
 
 async function createTable() {
   await client.connect().catch(err => console.error('Connection error', err.stack));
@@ -49,3 +49,4 @@ async function fetchUsers(email: string) {
     console.log('User fetched', res.rows[0]);
 }
 fetchUsers('Ujval@gmail.com').finally(() => client.end());  
+
