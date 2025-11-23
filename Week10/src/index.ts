@@ -38,7 +38,7 @@ async function InsertTable(name: string, email: string  ) {
     const res = await client.query(query, values);  
     console.log('Data inserted', res.rows[0]);
 }
-
+  
 // InsertTable('Ujval', 'Ujval@gmail.com').finally(() => client.end());  
 
 async function fetchUsers(email: string) { 

@@ -49,6 +49,6 @@ async function  fetchUser(username : string){
     console.log(res);
 }
 
-fetchUser('UdayKumar').finally( async () => {
+fetchUser('UdayKumar  ').finally( async () => {
     await prisma.$disconnect();
 });

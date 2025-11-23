@@ -1,0 +1,26 @@
+{
+  "name": "cohort",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udaykumar2507/Cohort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udaykumar2507/Cohort/issues"
+  },
+  "homepage": "https://github.com/udaykumar2507/Cohort#readme",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.17",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "tailwindcss": "^4.1.17"
+  }
+}
